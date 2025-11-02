@@ -18,3 +18,12 @@ For now this is what the design will be based on (hopefully)
 
   
 
+## 11/2/2025 - Keyboard Plate  
+
+I started by designing a custom layout on keyboard-layout-editor.com, aiming for a compact 65% Mac-compatible setup. After finalizing the layout, I rendered it using kle-render.herokuapp.com  to visualize spacing and proportions.
+Next, I used builder.swillkb.com  to generate the plate file. I adjusted stabilizer cutouts and margins, then exported the DXF file.
+In Fusion 360, I imported the DXF, extruded the plate to 1.5mm, and added fillets to the corners. I verified switch cutouts and saved the model.
+I wrapped up by prepping for case design—measuring the plate, sketching a rough outline, and deciding on mounting style. Case modeling comes next.![CustomKeyboardRender](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzcwNSwicHVyIjoiYmxvYl9pZCJ9fQ==--2dc1653cb792f5b043ba65f4907eefb8cd57536a/CustomKeyboardRender.png)
+
+  
+
