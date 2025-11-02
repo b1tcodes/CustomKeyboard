@@ -8,7 +8,7 @@
 
 ## 11/1/2025 - Designed and started working on my Keyboard  
 
-I designed CustomKeyboard V1, a 65% mechanical keyboard. The design takes inspiration from Apple's minimalist aesthetic, featuring clean lines, a space gray aluminum case, and a Mac-optimized layout with Command and Option keys. The keyboard uses an ATmega32U4 microcontroller, O-ring gasket mounting, USB-C connectivity, and hot-swap sockets. It runs QMK firmware with VIA support for easy customization. Currently working on the schematic design phase, with PCB layout and case modeling to follow.
+I designed CustomKeyboard V1, a 65% mechanical keyboard for Hack Club Blueprint. The design takes inspiration from Apple's minimalist aesthetic, featuring clean lines, a space gray aluminum case, and a Mac-optimized layout with Command and Option keys. The keyboard uses an ATmega32U4 microcontroller, O-ring gasket mounting, USB-C connectivity, and hot-swap sockets. It runs QMK firmware with VIA support for easy customization. Initially planned as a PCB-based design, I've decided to build the first prototype using hand-wiring techniques with a Pro Micro to validate the layout and gain assembly experience before moving to custom PCB manufacturing.
 
 For now this is what the design will be based on (hopefully)
 ![Untitled design](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQwOSwicHVyIjoiYmxvYl9pZCJ9fQ==--c2f40a3f7ffeb4fbb7c28f68209521812d682616/Untitled%20design.png)
