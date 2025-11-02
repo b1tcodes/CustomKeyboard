@@ -1,43 +1,63 @@
 # CustomKeyboard V1
 
-A 65% mechanical keyboard with Mac-optimized layout.
+A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 
 ## Specifications
 
 | Feature | Value |
 |---------|-------|
 | Layout | 65% (68 keys) |
-| MCU | ATmega32U4 |
+| MCU | Arduino Pro Micro or Elite-C |
 | Mounting | O-ring gasket |
 | Connectivity | USB-C |
 | Firmware | QMK/VIA |
 | Dimensions | 312 × 110 × 30mm |
-| PCB | 2-layer, 1.6mm |
+| Assembly | Hand-wired |
 
 ## Features
 
 - Mac layout with Command/Option keys
-- Hotswap sockets for MX switches
+- Hand-wired matrix construction
 - VIA support for keymap configuration
 - Cross-platform compatibility (macOS, Windows, Linux)
-- Aluminum or 3D printed case options
+- 3D printed case
+
+## Cost Estimate
+
+| Component | Price (USD) |
+|-----------|-------------|
+| Arduino Pro Micro / Elite-C | $5-20 |
+| Diodes 1N4148 (100 pack) | $3 |
+| Wire (solid core 22-24 AWG) | $8 |
+| MX switches (68) | $35-70 |
+| Keycaps | $40-100 |
+| Case (3D printed) | $20 |
+| Stabilizers | $8 |
+| Hardware (screws, O-ring) | $5 |
+
+**Total:** $124-234
 
 ## Repository Structure
 ```
 CustomKeyboard/
 ├── hardware/
-│   ├── pcb/           # KiCAD files
+│   ├── plate/         # Plate design files (DXF/SVG)
 │   ├── case/          # CAD models (STEP/STL)
-│   └── bom.csv        # Bill of materials
+│   └── wiring-diagram.png
 ├── firmware/
 │   └── qmk/           # QMK configuration
 └── docs/              # Build documentation
 ```
 
-### PCB Manufacturing
-1. Export Gerber files from KiCAD
-2. Upload to JLCPCB or PCBWay
-3. Specify: 1.6mm thickness, HASL finish
+## Hand-Wiring Process
+
+1. 3D print or laser cut switch plate
+2. Install switches into plate
+3. Wire matrix (rows and columns)
+4. Solder diodes to switches
+5. Connect matrix to microcontroller
+6. Flash firmware and test
+7. Install in case
 
 ## Layout
 ```
@@ -51,7 +71,7 @@ CustomKeyboard/
 │ Shift  │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │Shift │ ↑ │End│
 ├────┬───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴───┼───┴──┬───┼───┼───┤
 │Ctrl│Opt │Cmd │        Space           │Cmd │Fn    │ ← │ ↓ │ → │
-└────┴────┴────┴────────────────────────┴────┴──────└───┴───┴───┘
+└────┴────┴────┴────────────────────────┴────┴──────┴───┴───┴───┘
 ```
 
 ## Acknowledgments
