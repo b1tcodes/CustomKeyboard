@@ -18,7 +18,7 @@ For now this is what the design will be based on (hopefully)
 
   
 
-## 11/2/2025 - Keyboard Plate  
+## 11/2/2025 - Keyboard Plate Design  
 
 I started by designing a custom layout on keyboard-layout-editor.com, aiming for a compact 65% Mac-compatible setup. After finalizing the layout, I rendered it using kle-render.herokuapp.com  to visualize spacing and proportions.
 Next, I used builder.swillkb.com  to generate the plate file. I adjusted stabilizer cutouts and margins, then exported the DXF file.
