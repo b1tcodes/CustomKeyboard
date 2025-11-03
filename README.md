@@ -42,14 +42,20 @@ A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 
 ## Repository Structure
 ```
-CustomKeyboard/
+CustomKeyboard V1/
 ├── hardware/
-│   ├── plate/
-│   ├── case/
-│   └── wiring-diagram.png
+│   ├── plate.dxf
+│   ├── CaseAndPlate3DModel.f3d
 ├── firmware/
-│   └── qmk/           
-└── docs/              
+│   └── qmk/
+├── img/
+│   ├── CustomKeyboard3DModel.png
+│   ├── CustomKeyboardRender.png
+│   ├── CustomKeyboardDesign.png
+│   └── WiringDiagram.png
+├── JOURNAL.md
+├── README.md
+└── bom.csv
 ```
 
 ## Hand-Wiring Process
