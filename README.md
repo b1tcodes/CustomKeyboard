@@ -43,12 +43,12 @@ A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 ```
 CustomKeyboard/
 ├── hardware/
-│   ├── plate/         # Plate design files (DXF/SVG)
-│   ├── case/          # CAD models (STEP/STL)
+│   ├── plate/
+│   ├── case/
 │   └── wiring-diagram.png
 ├── firmware/
-│   └── qmk/           # QMK configuration
-└── docs/              # Build documentation
+│   └── qmk/           
+└── docs/              
 ```
 
 ## Hand-Wiring Process
@@ -75,7 +75,3 @@ CustomKeyboard/
 │Ctrl│Opt │Cmd │        Space           │Cmd │Fn    │ ← │ ↓ │ → │
 └────┴────┴────┴────────────────────────┴────┴──────┴───┴───┴───┘
 ```
-
-## Acknowledgments
-
-Based on <a href="https://github.com/kkatano/bakeneko-60/tree/develop">Bakeneko60 by kkatano</a>.
