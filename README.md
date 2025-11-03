@@ -22,20 +22,22 @@ A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 - Cross-platform compatibility (macOS, Windows, Linux)
 - 3D printed case
 
-## Cost Estimate
+## Sky’s Hand-Wired Keyboard Cost Estimate
 
 | Component | Price (USD) |
 |-----------|-------------|
-| Arduino Pro Micro / Elite-C | $5-20 |
-| Diodes 1N4148 (100 pack) | $3 |
-| Wire (solid core 22-24 AWG) | $8 |
-| MX switches (68) | $35-70 |
-| Keycaps | $40-100 |
-| Case (3D printed) | $20 |
-| Stabilizers | $8 |
-| Hardware (screws, O-ring) | $5 |
+| Arduino Pro Micro USB-C | $11 |
+| Diodes 1N4148 (68 pcs) | $3.5 |
+| Wire (~3m, solid core) | $2 |
+| MX switches (68 pcs) | $20.5 |
+| Keycaps (68 pcs) | $14 |
+| Case (3D printed) | $8 |
+| Switch plate (3D printed) | $4 |
+| Stabilizers (4–5 pcs) | $2 |
+| USB-C cable | $2 |
+| Hardware (screws, standoffs, O-ring) | $1.5 |
 
-**Total:** $124-234
+**Total:** ~$70
 
 ## Repository Structure
 ```
