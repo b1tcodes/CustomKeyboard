@@ -4,15 +4,16 @@ A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 
 ## Specifications
 
-| Feature | Value |
-|---------|-------|
-| Layout | 65% (68 keys) |
-| MCU | Arduino Pro Micro or Elite-C |
-| Mounting | O-ring gasket |
-| Connectivity | USB-C |
-| Firmware | QMK/VIA |
-| Dimensions | 312 × 110 × 30mm |
-| Assembly | Hand-wired |
+## Sky’s Hand-Wired Keyboard Specs
+
+| Feature       | Value                  |
+|---------------|------------------------|
+| Layout        | 65% (68 keys)          |
+| MCU           | Arduino Pro Micro      |
+| Connectivity  | USB-C                  |
+| Firmware      | QMK/VIA                |
+| Assembly      | Hand-wired             |
+
 
 ## Features
 
