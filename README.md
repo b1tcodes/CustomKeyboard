@@ -63,8 +63,7 @@ CustomKeyboard V1/
 ├── img/
 │   ├── CustomKeyboard3DModel.png
 │   ├── CustomKeyboardRender.png
-│   ├── CustomKeyboardDesign.png
-│   └── WiringDiagram.png
+│   └── CustomKeyboardDesign.png
 ├── JOURNAL.md
 ├── README.md
 └── bom.csv
