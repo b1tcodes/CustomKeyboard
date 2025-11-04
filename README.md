@@ -1,17 +1,29 @@
+```
+┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┬───┐
+│Esc│ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │ Bkspc │Del│
+├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┼───┤
+│ Tab │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │  \  │PgU│
+├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴─────┼───┤
+│ Caps │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │  Enter │PgD│
+├──────┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴────┬───┼───┤
+│ Shift  │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │Shift │ ↑ │End│
+├────┬───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴───┼───┴──┬───┼───┼───┤
+│Ctrl│Opt │Cmd │        Space           │Cmd │Fn    │ ← │ ↓ │ → │
+└────┴────┴────┴────────────────────────┴────┴──────┴───┴───┴───┘
+```
+
 # CustomKeyboard V1
 
 A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 
 ## Specifications
 
-## Sky’s Hand-Wired Keyboard Specs
-
 | Feature       | Value                  |
 |---------------|------------------------|
 | Layout        | 65% (68 keys)          |
 | MCU           | Arduino Pro Micro      |
 | Connectivity  | USB-C                  |
-| Firmware      | QMK/VIA                |
+| Firmware      | QMK                    |
 | Assembly      | Hand-wired             |
 
 
@@ -19,11 +31,11 @@ A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 
 - Mac layout with Command/Option keys
 - Hand-wired matrix construction
-- VIA support for keymap configuration
+- QMK support for keymap configuration
 - Cross-platform compatibility (macOS, Windows, Linux)
-- 3D printed case
+- 3D printed case and plate
 
-## Sky’s Hand-Wired Keyboard Cost Estimate
+## Cost Estimate (Prices may vary)
 
 | Component | Price (USD) |
 |-----------|-------------|
@@ -67,18 +79,3 @@ CustomKeyboard V1/
 5. Connect matrix to microcontroller
 6. Flash firmware and test
 7. Install in case
-
-## Layout
-```
-┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┬───┐
-│Esc│ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │ Bkspc │Del│
-├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┼───┤
-│ Tab │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │  \  │PgU│
-├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴─────┼───┤
-│ Caps │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │  Enter │PgD│
-├──────┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴────┬───┼───┤
-│ Shift  │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │Shift │ ↑ │End│
-├────┬───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴───┼───┴──┬───┼───┼───┤
-│Ctrl│Opt │Cmd │        Space           │Cmd │Fn    │ ← │ ↓ │ → │
-└────┴────┴────┴────────────────────────┴────┴──────┴───┴───┴───┘
-```
