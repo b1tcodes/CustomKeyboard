@@ -55,15 +55,15 @@ A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 ## Repository Structure
 ```
 CustomKeyboard V1/
-├── hardware/
-│   ├── plate.dxf
-│   ├── CaseAndPlate3DModel.f3d
 ├── firmware/
-│   └── qmk/
+│   └── qmk
+├── hardware/
+│   ├── CaseAndPlate3DModel.f3d
+│   └── plate.dxf
 ├── img/
 │   ├── CustomKeyboard3DModel.png
-│   ├── CustomKeyboardRender.png
-│   └── CustomKeyboardDesign.png
+│   ├── CustomKeyboardDesign.png
+│   └── CustomKeyboardRender.png
 ├── JOURNAL.md
 ├── README.md
 └── bom.csv
