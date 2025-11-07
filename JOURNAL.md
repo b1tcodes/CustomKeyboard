@@ -39,3 +39,9 @@ ps: took me a lot time in doing research and also this was my first time making 
 
   
 
+## 11/7/2025 - Wiring Diagram and GitHub Setup  
+
+Today i focused on organizing and documenting the firmware side of my custom keyboard. First, I uploaded all relevant files to GitHub: plate DXF, and early Fusion 360 exports. I created folders for each stage: layout, plate, case, and firmware. I also added a basic README.
+Then I followed a YouTube video that walked through wiring diagrams for hand-wired keyboards. Using kbfirmware.com, I recreated my layout and mapped out the matrix. I assigned rows and columns based on physical switch positions, added a diode per switch, and finalized the wiring diagram. I exported the firmware config and saved the wiring image for reference.![CustomKeyboardWiring](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTEzMywicHVyIjoiYmxvYl9pZCJ9fQ==--0a099a73a7a6e72a64753ca5939ad0658400efc6/CustomKeyboardWiring.png)
+  
+
