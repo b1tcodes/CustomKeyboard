@@ -29,7 +29,7 @@ I wrapped up by prepping for case design—measuring the plate, sketching a roug
 
 ## 11/3/2025 - Case Design and Plate Re-Design  
 
-today i started working on the case design today. initially used the plate generator from http://builder.swillkb.com/ but quickly realized the dimensions weren't accurate for my layout and the switch cutouts didn't align properly with standard MX spacing.
+today i started working on the case design. I initially used the plate generator from http://builder.swillkb.com/ but quickly realized the dimensions weren't accurate for my layout and the switch cutouts didn't align properly with standard MX spacing.
 so i decided to start over using https://kbplate.ai03.com/ instead. This generator produced much more accurate results. Imported the new plate design into Fusion 360 for 3D modeling. Having gone through the process once already, the second attempt was significantly easier. Completed everything from research to finding new plate design in roughly 2 hours.
 The case proved to be the challenging part. Started following YouTube tutorials on keyboard case design and reached out to the community on Discord (that made https://github.com/ph-design/PH60) for guidance. With help from the developer of that keyboard, I worked through the mounting system, wall thickness, and tolerances. Completed the full case design in approximately 3 hours. I also made a place for the arduino pro micro to mount and the hole for the usb c then i finalized the bill of materials and calculated total project cost at last.
 
