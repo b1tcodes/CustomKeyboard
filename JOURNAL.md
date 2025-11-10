@@ -45,3 +45,12 @@ Today i focused on organizing and documenting the firmware side of my custom key
 Then I followed a YouTube video that walked through wiring diagrams for hand-wired keyboards. Using kbfirmware.com, I recreated my layout and mapped out the matrix. I assigned rows and columns based on physical switch positions, added a diode per switch, and finalized the wiring diagram. I exported the firmware config and saved the wiring image for reference.![CustomKeyboardWiring](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTEzMywicHVyIjoiYmxvYl9pZCJ9fQ==--0a099a73a7a6e72a64753ca5939ad0658400efc6/CustomKeyboardWiring.png)
   
 
+## 11/10/2025 - Finished Everything  
+
+Today I wrapped up the entire firmware and documentation process for my custom keyboard. I started by searching for all the necessary parts—diodes, microcontroller, switches, and wiring materials—making sure everything matched the layout and matrix I had designed earlier.
+Then I finalized the firmware, cleaned up the config, and double-checked the keymap and pin assignments. I used kbfirmware.com  to validate the wiring diagram and exported the final firmware files.
+Next, I created a complete BOM (bom.csv) listing every component with quantity and source etc and uploaded everything to GitHub. The repo now includes every file i made.
+Everything is now documented, uploaded, and ready for the next phase: physical build and testing.
+![Untitled design](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTk0OCwicHVyIjoiYmxvYl9pZCJ9fQ==--4a41d78548473c2aa2bf13d50085c14f409c0843/Untitled%20design.png)
+  
+
