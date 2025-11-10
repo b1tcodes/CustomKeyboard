@@ -35,23 +35,6 @@ A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 - Cross-platform compatibility (macOS, Windows, Linux)
 - 3D printed case and plate
 
-## Cost Estimate (Prices may vary)
-
-| Component | Price (USD) |
-|-----------|-------------|
-| Arduino Pro Micro USB-C | $11 |
-| Diodes 1N4148 (68 pcs) | $3.5 |
-| Wire (~3m, solid core) | $2 |
-| MX switches (68 pcs) | $20.5 |
-| Keycaps (68 pcs) | $14 |
-| Case (3D printed) | $8 |
-| Switch plate (3D printed) | $4 |
-| Stabilizers (4–5 pcs) | $2 |
-| USB-C cable | $2 |
-| Hardware (screws, standoffs, O-ring) | $1.5 |
-
-**Total:** ~$70
-
 ## Repository Structure
 ```
 CustomKeyboard V1/
