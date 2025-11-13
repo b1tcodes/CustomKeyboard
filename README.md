@@ -1,6 +1,7 @@
 <img src="img/CustomKeyboardRender.png">
+<img src="img/CustomKeyboardFile.png">
 
-# CustomKeyboard V1
+# CustomKeyboard V1 ( Hand Wired )
 
 A 65% hand-wired mechanical keyboard with Mac-optimized layout.
 
