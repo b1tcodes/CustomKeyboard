@@ -35,6 +35,7 @@ CustomKeyboard V1/
 ├── img/
 │   ├── CustomKeyboard3DModel.png
 │   ├── CustomKeyboardDesign.png
+│   ├── CustomKeyboardFile.png
 │   ├── CustomKeyboardRender.png
 │   └── CustomKeyboardWiring.png
 ├── JOURNAL.md
